@@ -20,7 +20,6 @@ pygame.mouse.set_cursor(pygame.cursors.diamond)
 while True:
 
     x, y = pygame.mouse.get_pos()
-
     for event in pygame.event.get():
 
         if event.type == pygame.QUIT:
@@ -34,7 +33,7 @@ while True:
 
             elif event.button == 5:
                 brushSize = brushSize - 2
-
+                
                 if brushSize == 0:
                     brushSize = 2
 
@@ -54,7 +53,6 @@ while True:
             screen.fill(colorCode)
 
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_s:
-
             modeCounter = modeCounter + 1
 
             if modeCounter == 1:
