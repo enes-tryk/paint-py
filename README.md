@@ -3,13 +3,21 @@ Python drawing program using [pygame](https://www.pygame.org/news).
 
 # Controls:
 Draw: Left Click
+
 Erase: Right click
+
 Brush size: Mouse wheel
+
 Change color: Q and E
+
 Change shape: S
+
 Fill screen: F
+
 Save art: TAB
-Clear canvas: C 
+
+Clear canvas: C
+
 Close program: ESC
 
 Saved art is in the program's path. 11 available colors.
