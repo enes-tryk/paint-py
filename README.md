@@ -1,7 +1,7 @@
 # paint-py
 Python drawing program using [pygame](https://www.pygame.org/news).
 
-# Controls:
+# Controls
 Draw: Left Click
 
 Erase: Right click
